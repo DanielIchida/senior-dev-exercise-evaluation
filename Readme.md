@@ -11,6 +11,7 @@
 5. Include an explanation of your proposed solution.
 
 ## Instructions to build project
+- The project works with JDK version 11 
 - Build: mvn clean install
 - Deploy: mvn spring-boot:run
 - H2 console: http://localhost:8080/h2-console/
