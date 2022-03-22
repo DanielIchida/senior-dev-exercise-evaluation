@@ -1,21 +1,22 @@
 package com.brujula.infraestructure.repositoryimpl.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 
 @Table(name = "customers")
 @Entity
 public class CustomerModel {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     private String firstName;
 
     private String lastName;
+
 
     private String company;
 

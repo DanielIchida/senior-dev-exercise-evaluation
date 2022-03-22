@@ -34,6 +34,10 @@ public class Customer {
         this.id = id;
     }
 
+    public int getId() {
+        return id;
+    }
+
     private void setFirstName(String firstName) {
         this.firstName = firstName;
     }
