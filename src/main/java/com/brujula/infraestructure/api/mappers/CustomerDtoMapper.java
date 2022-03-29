@@ -8,6 +8,5 @@ import org.mapstruct.Mapper;
 public interface CustomerDtoMapper {
 
     Customer customerDtoToCustomer(CustomerDto customerDto);
-    CustomerDto customerToCustomerDto(Customer customer);
 
 }

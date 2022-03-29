@@ -14,8 +14,4 @@ public class CustomerDtoMapperImpl implements CustomerDtoMapper{
                 customerDto.getCompany());
     }
 
-    @Override
-    public CustomerDto customerToCustomerDto(Customer customer) {
-        return CustomerDto.createCustomerDto(customer);
-    }
 }
